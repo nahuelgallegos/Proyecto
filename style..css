@@ -1,0 +1,138 @@
+
+/* Comienzo de index*/
+.header {
+    background-color: rgb(167, 98, 231);
+}
+
+.header--ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+
+.header--li {
+list-style: none;
+}
+
+.header--li:hover {
+    transform: scale(2);
+    transition: 1.5s;
+    border: solid 1px black;
+    background-color: rgb(167, 98, 231);
+}
+
+.header--a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Kanit', sans-serif;
+    
+}
+
+.video {
+height: 110vh;
+width: 30vw;
+display: flex;
+flex-direction: column;
+margin-left: 35vw;
+
+}
+
+.videodiv {
+display: flex;
+flex-direction: column;
+justify-content: center;
+font-family: 'Kanit', sans-serif;
+background-color: rgb(167, 98, 231)
+}
+
+.imagen {
+    display: flex;
+    flex-direction: row;
+    height: 30rem;
+    justify-content: space-evenly;
+    
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.footera:hover {
+    transform: scale(2);
+    transition: all 1.5s;
+    border: solid 1px black;
+}
+
+.footera {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(167, 98, 231);
+    font-family:'Kanit', sans-serif;
+}
+/* Fin index*/
+
+/* Comienzo Hoddies*/
+.Hoddies {
+    display: flex;
+    flex-direction: row;
+    height: 35rem;
+    justify-content: space-evenly;
+    
+    
+}
+
+.Hoddies:hover {
+    transform: translate(50% 50%);
+}
+
+/*Fin Hoddies*/
+
+/*Comienzo remeras*/
+.Remeras {
+    display: flex;
+    flex-direction: row;
+    height: 40rem;
+    justify-content: center;
+}
+/*Fin remeras*/
+
+/*Comienzo pantalones*/
+.pantalon {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    margin-left: 40rem;
+    
+    
+}
+/*Fin pantalones*/
+
+/*Comienzo accesorios*/
+.gorras {
+    display: flex;
+    flex-direction: row;
+    height: 30rem;
+    justify-content: space-evenly;
+    margin-top: 10rem;
+}
+/*Fin accesorios*/
+
+/*Comienzo ayuda*/
+
+.textoayuda {
+    font-family:'Kanit', sans-serif;
+    display: flex;
+}
+.talles {
+    display: flex;
+    flex-direction: row;
+    height: 40rem;
+    justify-content: center;
+}
+/*Fin ayuda*/
