@@ -6,6 +6,7 @@
     <title>Pluggest_arg</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="/style..css">
+    <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Diplomata+SC&family=Fascinate&family=Kanit:wght@500&family=Merriweather:ital,wght@1,300&family=Titan+One&display=swap" rel="stylesheet">
   </head>
   
   <body>
@@ -39,21 +40,64 @@
       </header>
       <!--Fin header-->
       
-      <!--Imagenes-->
-<section>
-    <div class="gorras">
-        <img src="/Multimedia/gorra1.jpeg" alt="gorra1">
-        <img src="/Multimedia/gorra2.jpeg" alt="gorra2">
-        <img src="/Multimedia/gorra3.jpeg" alt="gorra2">
-    </div>
-    <div class="gorras">
-        <img src="/Multimedia/gorra4.jpeg" alt="gorra4">
-        <img src="/Multimedia/gorra5.jpeg" alt="gorra5">
-        <img src="/Multimedia/gorra6.jpeg" alt="gorra6">
-    </div>
+      <!--Corousel de imagenes-->
 
+<section>
+  <div class="buzo">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      </div>
+      <div class="carousel-inner hoddies">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="/Multimedia/gorra1.jpeg" class="d-block w-100" alt="gorra1">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="/Multimedia/gorra2.jpeg" class="d-block w-100" alt="gorra2">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="/Multimedia/gorra3.jpeg" class="d-block w-100" alt="gorra3">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="/Multimedia/gorra4.jpeg" class="d-block w-100" alt="gorra4">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="/Multimedia/gorra5.jpeg" class="d-block w-100" alt="gorra5">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/Multimedia/gorra6.jpeg" class="d-block w-100" alt="gorra6">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
 </section>
-<!--Fin imagenes-->
+
+<!--Fin carousel-->
 
 <!--Footer-->
 <footer class="footer">

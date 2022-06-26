@@ -6,6 +6,7 @@
     <title>Pluggest_arg</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="/style..css">
+    <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Diplomata+SC&family=Fascinate&family=Kanit:wght@500&family=Merriweather:ital,wght@1,300&family=Titan+One&display=swap" rel="stylesheet">
   </head>
   
   <body>
@@ -25,7 +26,7 @@
                 <li><a class="dropdown-item" href="/archivos/remeras.html">Remeras</a></li>
                 <li><a class="dropdown-item" href="/archivos/pantalones.html">Pantalones</a></li>
                 <li><a class="dropdown-item" href="/archivos/accesorios.html">Accesorios</a></li>
-
+                
               </ul>
             </li>
             <li class="nav-item">
@@ -39,25 +40,58 @@
       </header>
       <!--Fin header-->
       
-      <!--Imagenes-->
-<section>
-    <div class="Remeras">
-        <img src="/Multimedia/remera1adelante.jpeg" alt="r1adelante">
-        <img src="/Multimedia/remera1atras.jpeg" alt="r1atras">
-    </div>
-    <div class="Remeras">
-        <img src="/Multimedia/remera2adelante.jpeg" alt="r2adelante">
-        <img src="/Multimedia/remera2atras.jpeg" alt="r2atras">
-    </div>
-</section>
-<!--Fin imagenes-->
+      <!--Carousel de imagenes-->
+      <section>
+        <div class="buzo">
+          <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner hoddies">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="/Multimedia/remera2adelante.jpeg" class="d-block w-100" alt="remera2adelante">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="/Multimedia/remera2atras.jpeg" class="d-block w-100" alt="remera2atras">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/Multimedia/remera1adelante.jpeg" class="d-block w-100" alt="remera1adelante">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/Multimedia/remera1atras.jpeg" class="d-block w-100" alt="remera1atras">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- Fin de carousel -->
+
 
 <!--Footer-->
 <footer class="footer">
-    <a href="https://www.instagram.com/pluggest_arg/" class="footera">Instagram</a>
+  <a href="https://www.instagram.com/pluggest_arg/" class="footera">Instagram</a>
     <a href="https://api.whatsapp.com/send?phone=5492984742771&text=Contactar%20por%20Whatsapp" class="footera">Whatsapp</a>
     <a href="https://www.facebook.com/pluggest.arg" class="footera">Facebook</a>
-   </footer>
+   </footer> 
    
    <!--Fin Footer-->
 

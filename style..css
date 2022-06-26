@@ -9,7 +9,7 @@
     flex-direction: row;
     justify-content: space-around;
     margin-right: 2rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Merriweather', serif;
     color: aliceblue;
 
 }
@@ -19,25 +19,33 @@
 }
 
 
-.carousel {
+.video {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-}
-.imagenes {
-    width: 28rem;
-    height: 33rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    margin-left: 2rem;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
+.imagenesalternativas {
+    display: flex;
+    flex-direction: row;
+    width: 33%
+
+}
+
+.img {
+    display: flex;
+    flex-direction: row;
+}
 
 .footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     background-color: black;
+    font-family: 'Merriweather', serif;
+    
 
 }
 
@@ -52,58 +60,73 @@
 
 /* Fin index*/
 
-/* Comienzo Hoddies*/
+
+/* Estas 2 clases fue las que use para todos los archivos dentro de prendas*/
+.buzo {
+    margin: auto;
+    width: 50rem;
+    
+}
 .hoddies {
+    width: 50rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+/* Fin clases de prendas */
+
+/* Inicio nosotros */
+
+.logo {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-}
-
-/*Fin Hoddies*/
-
-/*Comienzo remeras*/
-.Remeras {
-    display: flex;
-    flex-direction: row;
-    height: 40rem;
-    justify-content: center;
-}
-/*Fin remeras*/
-
-/*Comienzo pantalones*/
-.pantalon {
-    display: flex;
-    flex-direction: column;
-    width: 30rem;
-    margin-left: 40rem;
-    
-    
-}
-/*Fin pantalones*/
-
-/*Comienzo accesorios*/
-.gorras {
-    display: flex;
-    flex-direction: row;
-    height: 30rem;
     justify-content: space-evenly;
-    margin-top: 10rem;
+    
 }
-/*Fin accesorios*/
+.textocontacto {
+    font-family: 'Oswald', sans-serif;
+}
 
-/*Comienzo ayuda*/
 
+/* Fin nosotros */
+
+
+/* Comienzo de ayuda */
 .textoayuda {
-    font-family:'Kanit', sans-serif;
+    font-family: 'Oswald', sans-serif;
     display: flex;
 }
 .talles {
     display: flex;
     flex-direction: row;
-    height: 40rem;
-    justify-content: center;
+}
+
+.talle {
+    width: 33%;
 }
 /*Fin ayuda*/
+
+
+
+/* Comienzo de media para vista mobile */
+@media (max-width: 800px)
+ {
+    .hoddies{
+        width: 30rem;
+
+    }
+
+    .buzo {
+        margin: auto;
+        width: 30rem;
+    }
+
+
+}
+/* Fin de vista mobile */
+
+
+
+
 
 
 
