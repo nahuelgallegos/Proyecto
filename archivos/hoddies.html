@@ -1,61 +1,91 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Pluggest_arg</title>
-    <link rel="stylesheet" href="/style..css">
-</head>
-<body>
-    <!--Header-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="stylesheet" href="/style..css">
+  </head>
+  
+  <body>
+<!--Header-->
 
 <header class="header">
    
-    <nav >  
-            <ul class="header--ul">
-                <li class="header--li">
-                    <a href="/index.html" class="header--a" >Inicio</a></li>
-                <li class="header--li">
-                    <a href="/archivos/hoddies.html" class="header--a" >Hoddies</a></li>
-                <li class="header--li">
-                    <a href="/archivos/remeras.html" class="header--a" >Remeras</a></li>
-                <li class="header--li">
-                    <a href="/archivos/pantalones.html" class="header--a" >Pantalones</a></li>
-                <li class="header--li">
-                    <a href="/archivos/accesorios.html" class="header--a">Accesorios</a></li>
-                <li class="header--li">
-                    <a href="/archivos/ayuda.html" class="header--a" >Ayuda</a></li>
-    
-    </nav>
-</header>
-<!--Fin header-->
+    <nav class="nav">  
+        <ul class="nav nav-tabs d-flex justify-content-around">
+            <li class="nav-item ">
+              <a class="nav-link active nav" aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle nav " data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Prendas</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/archivos/hoddies.html">Hoddies</a></li>
+                <li><a class="dropdown-item" href="/archivos/remeras.html">Remeras</a></li>
+                <li><a class="dropdown-item" href="/archivos/pantalones.html">Pantalones</a></li>
+                <li><a class="dropdown-item" href="/archivos/accesorios.html">Accesorios</a></li>
 
-<!--Imagenes -->
-<section >
-    <div class="Hoddies">
-        <img class="transformacion" src="/Multimedia/buzo1.jpeg" alt="buzo1">
-        <img class="transformacion" src="/Multimedia/buzo2.jpeg" alt="buzo2">
-        <img class="transformacion" src="/Multimedia/buzo3.jpeg" alt="buzo3">
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav" href="/archivos/nosotros.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav" href="/archivos/ayuda.html">Ayuda</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <!--Fin header-->
+    
+      
+<!--Carousel de imagenes -->
+<section class="hoddies">
+  <div id="carouselExampleFade" class="carousel slide carousel-fade w-50 " data-bs-ride="carousel" >
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/Multimedia/buzo1.jpeg" class="d-block w-100 border" alt="buzo1">
+      </div>
+      <div class="carousel-item">
+        <img src="/Multimedia/buzo2.jpeg" class="d-block w-100 border" alt="buzo2">
+      </div>
+      <div class="carousel-item">
+        <img src="/Multimedia/buzo3.jpeg" class="d-block w-100 border" alt="buzo3">
+      </div>
+      <div class="carousel-item active">
+        <img src="/Multimedia/buzo4.jpeg" class="d-block w-100 border" alt="buzo4">
+      </div>
+      <div class="carousel-item">
+        <img src="/Multimedia/buzo5.jpeg" class="d-block w-100 border" alt="buzo5">
+      </div>
+      <div class="carousel-item">
+        <img src="/Multimedia/buzo6.jpeg" class="d-block w-100 border" alt="buzo6">
+      </div>
     </div>
-    <div class="Hoddies">
-        <img class="transformacion" src="/Multimedia/buzo4.jpeg" alt="buzo4">
-        <img class="transformacion" src="/Multimedia/buzo5.jpeg" alt="buzo5">
-        <img class="transformacion" src="/Multimedia/buzo6.jpeg" alt="buzo6">
-    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 </section>
-<!--Fin imagenes-->
+<!--Fin carousel de imagenes-->
 
 
 <!--Footer-->
 <footer class="footer">
-    <a href="https://www.instagram.com/pluggest_arg/" class="footera">Instagram</a>
-    <a href="https://api.whatsapp.com/send?phone=5492984742771&text=Contactar%20por%20Whatsapp" class="footera">Whatsapp</a>
-    <a href="https://www.facebook.com/pluggest.arg" class="footera">Facebook</a>
-   </footer>
-   
-   <!--Fin Footer-->
+ <a href="https://www.instagram.com/pluggest_arg/" class="footera">Instagram</a>
+ <a href="https://api.whatsapp.com/send?phone=5492984742771&text=Contactar%20por%20Whatsapp" class="footera">Whatsapp</a>
+ <a href="https://www.facebook.com/pluggest.arg" class="footera">Facebook</a>
+</footer>
+<!--Fin Footer-->
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+   
     
 </body>
 </html>
