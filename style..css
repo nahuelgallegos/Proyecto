@@ -39,6 +39,11 @@
     flex-direction: row;
 }
 
+.imagene:hover{
+    transform: scale(1.1);
+    transition: 1.2s;
+}
+
 .footer {
     display: flex;
     flex-direction: row;
