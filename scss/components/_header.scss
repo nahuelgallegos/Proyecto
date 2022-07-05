@@ -1,0 +1,24 @@
+ @import "../base/variables" ;
+  
+  /* Comienzo de header */
+  header {
+    background-color: $bg-hyf;
+  }
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;}
+
+    .nav {
+      margin-right: 2rem;
+      font-family: "Merriweather", serif;   
+      color: aliceblue;    
+      &:hover {
+        color:$bg-hover;
+
+      }
+
+    }
+
+
+  /* Fin de header */

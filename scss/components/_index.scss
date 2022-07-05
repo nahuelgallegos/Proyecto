@@ -1,0 +1,25 @@
+/* Comienzo de index */
+section  {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+ section  {
+    div { 
+        display: flex;
+        flex-direction: row;
+
+        .imagene:hover{
+            transform: scale(1.1);
+            transition: 1.2s;
+        }
+    }
+
+ }
+
+ /* Fin de index */
+
+
+

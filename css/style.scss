@@ -1,0 +1,112 @@
+/* Comienzo de header */
+header {
+  background-color: black;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav {
+  margin-right: 2rem;
+  font-family: "Merriweather", serif;
+  color: aliceblue;
+}
+.nav:hover {
+  color: rgb(136, 135, 135);
+}
+
+/* Fin de header */
+/* Comienzo de index */
+section {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+section div {
+  display: flex;
+  flex-direction: row;
+}
+section div .imagene:hover {
+  transform: scale(1.1);
+  transition: 1.2s;
+}
+
+/* Fin de index */
+/* Comienzo de footer */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: black;
+  font-family: "Merriweather", serif;
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+footer a:hover {
+  color: rgb(136, 135, 135);
+}
+
+/* Fin de footer */
+/* Estas 2 clases fue las que use para todos los archivos dentro de prendas */
+.buzo {
+  margin: auto;
+  width: 50rem;
+}
+
+.hoddies {
+  width: 50rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+/* Comienzo de media para vista mobile */
+@media (max-width: 800px) {
+  .hoddies {
+    width: 30rem;
+  }
+  .buzo {
+    margin: auto;
+    width: 30rem;
+  }
+}
+/* Fin de vista mobile */
+/* Fin clases de prendas */
+/* Inicio nosotros */
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.textocontacto {
+  font-family: "Oswald", sans-serif;
+}
+
+/* Fin nosotros */
+/* Comienzo de ayuda */
+.textoayuda {
+  font-family: "Oswald", sans-serif;
+  display: flex;
+}
+
+.talles {
+  display: flex;
+  flex-direction: row;
+}
+
+.talle {
+  width: 33%;
+}
+
+/*Fin ayuda*/
+
+/*# sourceMappingURL=style.scss.map */

@@ -1,0 +1,32 @@
+/* Estas 2 clases fue las que use para todos los archivos dentro de prendas */
+.buzo {
+    margin: auto;
+    width: 50rem;
+}
+
+.hoddies {
+
+    width: 50rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+/* Comienzo de media para vista mobile */
+@media (max-width: 800px)
+ {
+    .hoddies{
+        width: 30rem;
+
+    }
+
+    .buzo {
+        margin: auto;
+        width: 30rem;
+    }
+
+
+}
+/* Fin de vista mobile */ 
+/* Fin clases de prendas */
+
+
