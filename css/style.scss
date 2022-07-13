@@ -81,7 +81,12 @@ footer a:hover {
 /* Fin de vista mobile */
 /* Fin clases de prendas */
 /* Inicio nosotros */
-.logo {
+.colu {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.row {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;

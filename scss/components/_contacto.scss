@@ -1,14 +1,36 @@
+@import "../base/variables";
+@import "../base/mixins";
+
 /* Inicio nosotros */
 
-.logo {
+.colu {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.row {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    
+    width: 100%;
+
 }
 .textocontacto {
     font-family: 'Oswald', sans-serif;
+    background-color: $bg-hyf;
+    color: $bg-hover;
+    padding: 3rem;
+    width: 40rem;
+    text-align: center;
+    margin-top: 2rem;
 }
-
-
+.contacto {
+    display: flex;
+    flex-direction: column;
+    @media (max-width: 800px) {
+        width: 20rem;
+    }
+}
+.logos {
+    width: 40rem;
+}
 /* Fin nosotros */

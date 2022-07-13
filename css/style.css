@@ -1,12 +1,20 @@
-/* Comienzo de header */
+.talles, footer, section div, section, header nav {
+  display: flex;
+  flex-direction: row;
+} /* Comienzo de header */
 header {
   background-color: black;
 }
 
 header nav {
-  display: flex;
-  flex-direction: row;
   justify-content: space-around;
+}
+
+@media (max-width: 800px) {
+  header nav ul {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .nav {
@@ -19,32 +27,35 @@ header nav {
 }
 
 /* Fin de header */
+.talles, footer, section div, section, header nav {
+  display: flex;
+  flex-direction: row;
+}
+
 /* Comienzo de index */
 section {
   margin-top: 3rem;
-  margin-bottom: 3rem;
-  display: flex;
-  flex-direction: row;
+  margin-bottom: 4rem;
   justify-content: space-evenly;
 }
 
-section div {
-  display: flex;
-  flex-direction: row;
-}
 section div .imagene:hover {
   transform: scale(1.1);
   transition: 1.2s;
 }
 
 /* Fin de index */
-/* Comienzo de footer */
-footer {
+.talles, footer, header nav, section, section div {
   display: flex;
   flex-direction: row;
+}
+
+/* Comienzo de footer */
+footer {
   justify-content: space-evenly;
   background-color: black;
   font-family: "Merriweather", serif;
+  margin-top: 10rem;
 }
 
 footer a {
@@ -65,49 +76,81 @@ footer a:hover {
 .hoddies {
   width: 50rem;
   margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
 /* Comienzo de media para vista mobile */
 @media (max-width: 800px) {
+  .hoddies {
+    width: 30rem;
+  }
   .buzo {
     margin: auto;
     width: 30rem;
   }
-  .hoddies {
-    width: 30rem;
-  }
 }
 /* Fin de vista mobile */
-
 /* Fin clases de prendas */
-
-
 /* Inicio nosotros */
-.logo {
+.colu {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.row {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  width: 100%;
 }
 
 .textocontacto {
   font-family: "Oswald", sans-serif;
+  background-color: black;
+  color: rgb(136, 135, 135);
+  padding: 3rem;
+  width: 40rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 800px) {
+  .contacto {
+    width: 20rem;
+  }
+}
+
+.logos {
+  width: 40rem;
 }
 
 /* Fin nosotros */
+.talles, header nav, section, section div, footer {
+  display: flex;
+  flex-direction: row;
+}
+
 /* Comienzo de ayuda */
 .textoayuda {
   font-family: "Oswald", sans-serif;
   display: flex;
 }
 
-.talles {
-  display: flex;
-  flex-direction: row;
-}
-
 .talle {
   width: 33%;
+}
+.talle:hover {
+  transform: scale(1.4);
+  transition: 4s;
+}
+
+.acordeon {
+  display: flex;
+  flex-direction: column;
 }
 
 /*Fin ayuda*/

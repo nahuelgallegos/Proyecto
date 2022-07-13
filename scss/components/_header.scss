@@ -1,13 +1,27 @@
  @import "../base/variables" ;
+ @import "../base/maps";
+ @import "../base/extends.scss";
   
   /* Comienzo de header */
   header {
     background-color: $bg-hyf;
+    
+    
   }
   header nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;}
+    @extend %display;
+    justify-content: space-around;
+
+    
+  }
+
+  header nav ul {
+    @media (max-width: 800px) {
+      display: flex;
+      flex-direction: column;
+    }
+
+  }
 
     .nav {
       margin-right: 2rem;

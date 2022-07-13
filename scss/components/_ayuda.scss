@@ -1,14 +1,25 @@
+@import "../base/extends.scss";
+
 /* Comienzo de ayuda */
 .textoayuda {
     font-family: 'Oswald', sans-serif;
     display: flex;
 }
 .talles {
-    display: flex;
-    flex-direction: row;
+    @extend %display;
 }
 
 .talle {
     width: 33%;
+    &:hover {
+        transform: scale(1.4);
+        transition: 4s;
+    }
 }
+.acordeon {
+    display: flex;
+    flex-direction: column; 
+}
+
+
 /*Fin ayuda*/

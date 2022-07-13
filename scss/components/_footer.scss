@@ -1,14 +1,14 @@
 @import "../base/variables" ;
+@import "../base/extends.scss";
 
 /* Comienzo de footer */
 
 footer {
-    display: flex;
-    flex-direction: row;
+    @extend %display;
     justify-content: space-evenly;
     background-color: $bg-hyf;
     font-family: 'Merriweather', serif;
-    
+    margin-top: 10rem;
 }
 
 footer a {
