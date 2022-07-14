@@ -9,6 +9,10 @@ footer {
     background-color: $bg-hyf;
     font-family: 'Merriweather', serif;
     margin-top: 10rem;
+
+    @media (max-width: 800px) {
+        margin-top: 5rem;
+    }
 }
 
 footer a {

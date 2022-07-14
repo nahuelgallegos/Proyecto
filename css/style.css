@@ -57,6 +57,11 @@ footer {
   font-family: "Merriweather", serif;
   margin-top: 10rem;
 }
+@media (max-width: 800px) {
+  footer {
+    margin-top: 5rem;
+  }
+}
 
 footer a {
   text-decoration: none;
